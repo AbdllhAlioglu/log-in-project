@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial, Helvetica, sans-serif";
+}
+
+body {
+  background-image: url(vecteezy_fingerprint-identity-sensor-data-protection-system-podium_7164537.jpg);
+  background-color: #4682a9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+form {
+  background-color: #071952;
+  padding: 20px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 1px 18px 2px #749bc2;
+  border-radius: 8px;
+  width: 400px;
+  height: 500px;
+}
+
+form h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #f4f2de;
+}
+
+form input {
+  font-family: cursive;
+  border: none;
+  background: none;
+  text-align: center;
+  outline: none;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  transition: 0.7s linear;
+}
+
+.texts {
+  font-size: 20px;
+  border: solid 3px #686de0;
+  height: 30px;
+  width: 60%;
+  border-radius: 15px;
+}
+
+.buttons {
+  font-size: 20px;
+  border: solid 2px #22a6b3;
+  height: 40px;
+  width: 120px;
+  padding: 3px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.texts:focus {
+  border: solid 2px #c7ecee;
+  width: 80%;
+}
+.buttons:hover {
+  border: solid 3px #686de0;
+  width: 50%;
+  background-color: #686de0;
+  color: rgb(8, 8, 8);
+}
